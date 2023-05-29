@@ -1,4 +1,4 @@
-# docs_for_productivity
+# docs_for_best_practicing_tools
 
 Below is a sample of some common rules you might include in a `.eslintrc.json` file for a React project. The rules set here are mostly based on the popular Airbnb JavaScript and React Style Guide.
 
