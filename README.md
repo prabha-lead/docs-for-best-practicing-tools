@@ -4,6 +4,7 @@
 2. [React TS Project ESLint](#react-ts-project-eslint)
 3. [VSCode Snippets](#vscode-snippets)
 4. [VSCode Prettier and Emmet](#vscode-prettier-and-emmet)
+5. [VSCode Sonar Lint](vscode-sonarlint)
 
 ## React JS Project ESLint
 [Link to the file](./react-js-project-eslint.md)
@@ -16,3 +17,6 @@
 
 ## VSCode Prettier and Emmet
 [Link_to_the_file](./vscode-prettier-and-emmet.md)
+
+## VSCode SonarLint
+[Link to the file](./vscode-sonarlint.md)
