@@ -9,7 +9,7 @@
 [Link to the file](./react-js-project-eslint.md)
 
 ## React TS Project ESLint
-[Link to the file](./react_ts_project_eslint.md)
+[Link to the file](./react-ts-project-eslint.md)
 
 ## VSCode Snippets
 [Link to the file](./vscode-snippets.md)
