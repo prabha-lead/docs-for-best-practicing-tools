@@ -1,8 +1,32 @@
 # Basic Code Convention
 
+## Folder name
+
+Folder names should be in snake case, all small case and words separated by `-`
+
+<span style="color:red">Don't</span>
+
+```
+deliveryfee
+
+DeliveryManagement
+
+UserImage
+```
+
+<span style="color:green">Do:</span>
+
+```
+delivery-fee
+
+delivery-management
+
+user-image
+```
+
 ## File name
 
-File names should be in snake case. Word Separate by `-`
+File names should be in snake case, all small case and words separated by Word Separate by `-`
 
 <span style="color:red">Don't</span>
 
@@ -107,6 +131,30 @@ camelCase
 getProduct
 ```
 
+## Function Return
+
+Function names should use a single return statement as it can make the code more concise and easier to understand.With a single return statement, the flow of the function is clear in larger function, and the returned value is usually determined by the final execution path.
+
+<span style="color:red">Don't</span>
+
+```
+function checkExistence(type: string) {
+    if(type === 'enable') return true;
+    return false;
+}
+```
+
+<span style="color:green">Do:</span>
+
+```
+function checkExistence(type: string) {
+    const isEnabled = false;
+    if(type === 'enable') isEnabled = true;
+
+    return isEnabled;
+}
+```
+
 ## Variable naming
 
 ### Type 1
@@ -172,6 +220,24 @@ Todo comments will always have “todo” in Uppercase followed by a “:”, a 
 ```
 
 ## If condition
+
+### Type 1
+
+If condition should always use strict equality operator `===`
+
+<span style="color:red">Don't</span>
+
+```
+if(numberOfStudents == 10) isEnabled = true;
+```
+
+<span style="color:green">Do:</span>
+
+```
+if(numberOfStudents === 10) isEnabled = true;
+```
+
+### Type 2
 
 If condition should be in single line if its block line is single
 
