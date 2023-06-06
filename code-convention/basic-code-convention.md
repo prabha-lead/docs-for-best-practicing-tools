@@ -199,6 +199,65 @@ const a = 10;
 const numberOfStudents = 10;
 ```
 
+### Type 3
+
+Variable names should generally be singular or plural based on the nature of the variable and the data it represents.
+
+<span style="color:red">Don't</span>
+
+```
+const student = ['Anya', 'Tokyo', 'Denver'];
+
+const countries = 'India';
+```
+
+<span style="color:green">Do:</span>
+
+```
+const students = ['Anya', 'Tokyo', 'Denver'];
+(or)
+const studentList = ['Anya', 'Tokyo', 'Denver'];
+
+const country = 'India';
+```
+
+## Comments
+
+Comments are not always necessary if the file name, function names, and variable names already accurately represent the code
+
+<span style="color:red">Don't</span>
+
+```
+// List of User
+function list() {
+    return this.userTable.list();
+}
+
+//Product List
+const list = ['Bike', 'Car', 'Cycle'];
+```
+
+<span style="color:green">Do:</span>
+
+```
+function userList() {
+    return this.userTable.list();
+}
+
+(or)
+
+function getUserList() {
+    return this.userTable.list();
+}
+
+const products = ['Bike', 'Car', 'Cycle'];
+
+(or)
+
+const productList = ['Bike', 'Car', 'Cycle'];
+
+```
+
 ## Todo comments
 
 Todo comments will always have “todo” in Uppercase followed by a “:”, a space and then your comment which will start with a capital letter
