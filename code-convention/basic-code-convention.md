@@ -223,7 +223,7 @@ const country = 'India';
 
 ## Comments
 
-Comments are not always necessary if the file name, function names, and variable names already accurately represent the code
+Comments are not always necessary if the class, interface, function and variable names already accurately represent the code
 
 <span style="color:red">Don't:</span>
 
