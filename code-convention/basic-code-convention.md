@@ -217,7 +217,9 @@ const countries = 'India';
 const students = ['Anya', 'Tokyo', 'Denver'];
 (or)
 const studentList = ['Anya', 'Tokyo', 'Denver'];
+```
 
+```
 const country = 'India';
 ```
 
@@ -249,7 +251,9 @@ function userList() {
 function getUserList() {
     return this.userTable.list();
 }
+```
 
+```
 const products = ['Bike', 'Car', 'Cycle'];
 
 (or)
