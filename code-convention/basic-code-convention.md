@@ -2,7 +2,7 @@
 
 ## Folder name
 
-Folder names should be in snake case, all small case and words separated by `-`
+Folder names should be in kebab case, all small case and words separated by `-`
 
 <span style="color:red">Don't:</span>
 
@@ -26,7 +26,7 @@ user-image
 
 ## File name
 
-File names should be in snake case, all small case and words separated by Word Separate by `-`
+File names should be in kebab case, all small case and words separated by Word Separate by `-`
 
 <span style="color:red">Don't:</span>
 
