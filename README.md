@@ -26,10 +26,18 @@
 
 [Link to the file](./vscode-sonarlint.md)
 
-## Database Convention
+## GIT Best Practice
 
-[Link to the file](./code-convention/database-convention.md)
+[Link to the file](./git-best-practice.md)
 
 ## Basic Code Convention
 
 [Link to the file](./code-convention/basic-code-convention.md)
+
+## Database Convention
+
+[Link to the file](./code-convention/database-convention.md)
+
+## API Convention
+
+[Link to the file](./code-convention/api-convention.md)
