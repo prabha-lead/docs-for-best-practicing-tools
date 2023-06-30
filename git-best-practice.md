@@ -93,7 +93,7 @@ Summary in the present. without capitalization. There is no period at the end.
 
 Check this [video](./assets/videos/Git%20pull%20-%20Demo%20using%20VS%20Code.mp4) for demo.
 
-## Push from Repo
+## Push to Repo
 
 1. Use the source control view to push your local commits to a remote repository.
 2. First, you need to stage the files you want to push in the source control.
@@ -104,3 +104,18 @@ Check this [video](./assets/videos/Git%20pull%20-%20Demo%20using%20VS%20Code.mp4
 7. Always synchronize changes by clicking on the icon at the left-end corner, next to the branch name, before pushing to the current branch.
 
 Check this [video](./assets/videos/Git%20Push%20-%20Demo%20using%20VS%20Code.mp4) for demo.
+
+## Create Branch
+
+1. Use the source control view to create a branch in a remote repository.
+2. First, click on the "View more" option in the source control panel and hover over "Branch" in the dropdown menu.
+3. Next, another dropdown will open, showing a list of branch options.
+4. Click on "Create branch" in that dropdown. A dialog will open, displaying a list of branches in the middle-top of VSCode.
+5. Select the branch from which you want to create the new branch. After selecting, another dialog will appear at the same location, prompting you to enter the name of the new branch.
+6. Type the desired name for the branch and press Enter. This will create the branch locally, and the dialog will close.
+7. Once the new branch is created, it will automatically checkout to that branch. You can verify the current branch you are on in the left-end corner of VS Code.
+8. Keep in mind that this branch will only be created locally. To publish the branch, go to the source control and push the branch you created to update it in the remote repository.
+
+Note: Remember to publish the branch immediately after creating it. If you delay pushing the branch and someone else creates a branch with the same name in the meantime, it may cause conflicts.
+
+Check this [video](./assets/videos/Git%20Create%20Branch%20-%20Demo%20using%20VS%20Code.mp4) for demo.
