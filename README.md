@@ -32,7 +32,15 @@
 
 ## GIT Best Practice
 
-[Link to the file](./git-best-practice.md)
+[Link to the file](./git-best-practice.md#git-best-practices)
+
+1. [Branch Naming convention](./git-best-practice.md#branch-naming-convention)
+2. [Commit Message convention](./git-best-practice.md#commit-message-convention)
+3. [VSCode GIT Source Control](./git-best-practice.md#vscode-git-source-control)
+   - [Pull from Repo](./git-best-practice.md#pull-from-repo)
+   - [Push to Repo](./git-best-practice.md#push-to-repo)
+   - [Create Branch](./git-best-practice.md#create-branch)
+   - [Review and Create Commit](./git-best-practice.md#review-and-create-commit)
 
 ## Basic Code Convention
 
