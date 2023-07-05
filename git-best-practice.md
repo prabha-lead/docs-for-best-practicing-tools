@@ -6,7 +6,7 @@
 
 A branch name convention is used to avoid confusion and make it simple for team members to recognise the work that is linked. Branch names should be in kebab case, all small case and words separated by `-`
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 fix-bug
@@ -16,7 +16,7 @@ create-employee
 Task1012
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 Task/Bug/Refactor ID - 1012
 

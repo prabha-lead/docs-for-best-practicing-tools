@@ -6,7 +6,7 @@
 
 The API route path should be in the plural form and should follow the REST pattern for route naming wherever possible. It should be in snake case
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 GET /super-market
@@ -16,7 +16,7 @@ POST /superMarket
 POST /super-market
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 ```
 GET /super-markets
@@ -36,7 +36,7 @@ The API route path should be in the plural form and be descriptive of the functi
 
 1. List products based on supermarket
 
-   <span style="color:red">Don't</span>
+   **Don't**
 
    ```
    GET /super-markets/products?id=1
@@ -46,7 +46,7 @@ The API route path should be in the plural form and be descriptive of the functi
    GET /super-markets/1/products (/super-markets/:super_market_id/products)
    ```
 
-   <span style="color:green">Do:</span>
+   **Do:**
 
    ```
    GET /super-markets/1/products (/super-markets/:id/products)
@@ -55,7 +55,7 @@ The API route path should be in the plural form and be descriptive of the functi
 
 2. Avoid verbosity in API route naming. For example, when using the POST method to save data, there is no need to explicitly include "save" in the route.
 
-   <span style="color:red">Don't</span>
+   **Don't**
 
    ```
    POST /save/products
@@ -63,7 +63,7 @@ The API route path should be in the plural form and be descriptive of the functi
    POST /products/save
    ```
 
-   <span style="color:green">Do:</span>
+   **Do:**
 
    ```
    POST /products
@@ -75,7 +75,7 @@ The API route path should be in the plural form and be descriptive of the functi
 
 The List API should always use the GET method.
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 POST /super-markets
@@ -83,7 +83,7 @@ POST /super-markets
 PUT /super-markets
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 ```
 GET /super-markets
@@ -95,7 +95,7 @@ GET /super-markets/1 (/super-markets/:id)
 
 The Add API should always use the POST method.
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 PUT /super-markets
@@ -103,7 +103,7 @@ PUT /super-markets
 GET /super-markets
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 ```
 POST /super-markets
@@ -113,7 +113,7 @@ POST /super-markets
 
 The Edit API should always use the PUT method.
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 POST /super-markets
@@ -121,7 +121,7 @@ POST /super-markets
 GET /super-markets
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 ```
 PUT /super-markets/1 (/super-markets/:id)
@@ -131,7 +131,7 @@ PUT /super-markets/1 (/super-markets/:id)
 
 The Delete API should always use the DELETE method.
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 POST /super-markets
@@ -139,7 +139,7 @@ POST /super-markets
 PUT /super-markets/1 (/super-markets/:id)
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 ```
 DELETE /super-markets/1 (/super-markets/:id)
@@ -149,7 +149,7 @@ DELETE /super-markets/1 (/super-markets/:id)
 
 Controller functions should not contain any logic, instead, write all the logic inside services and load those into controller
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 async signUp(@Body() signupDto: SignupDto) {
@@ -162,7 +162,7 @@ async signUp(@Body() signupDto: SignupDto) {
 }
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 ```
 async signUp(@Body() signupDto: SignupDto) {

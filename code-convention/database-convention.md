@@ -4,7 +4,7 @@
 
 Table names should be in singular, all small case and words separated by `_` (underscore)
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 users
@@ -18,7 +18,7 @@ timeSlots
 timeSlot
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 ```
 user
@@ -32,7 +32,7 @@ time_slot
 
 Column names should be in all small cases and words separated by `_` (underscore)
 
-<span style="color:red">Don't</span>
+**Don't**
 
 ```
 Id
@@ -42,7 +42,7 @@ Id
 firstName
 ```
 
-<span style="color:green">Do:</span>
+**Do:**
 
 ```
 id

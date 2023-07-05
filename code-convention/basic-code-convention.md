@@ -4,7 +4,7 @@
 
 Folder names should be in kebab case, all small case and words separated by `-`
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 deliveryfee
@@ -14,7 +14,7 @@ DeliveryManagement
 UserImage
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 delivery-fee
@@ -28,7 +28,7 @@ user-image
 
 File names should be in kebab case, all small case and words separated by Word Separate by `-`
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 deliveryfee.js
@@ -38,7 +38,7 @@ DeliveryManagement.js
 UserImage.js
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 delivery-fee.js
@@ -62,7 +62,7 @@ user-image.js
 
 Note: All above point imports need to separate by line break
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 import moment from 'moment';
@@ -73,7 +73,7 @@ import { IUser } from './interface';
 
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 import moment from 'moment';
@@ -91,7 +91,7 @@ import { IUser } from './interface';
 
 Class names should be in PascalCase
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 userEntity
@@ -103,7 +103,7 @@ user_entity
 product
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 UserEntity
@@ -115,7 +115,7 @@ Product
 
 Function names should be in camelCase
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 CamelCase
@@ -123,7 +123,7 @@ CamelCase
 GetProduct
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 camelCase
@@ -135,7 +135,7 @@ getProduct
 
 Function names should use a single return statement as it can make the code more concise and easier to understand.With a single return statement, the flow of the function is clear in larger function, and the returned value is usually determined by the final execution path.
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 function checkExistence(type: string) {
@@ -144,7 +144,7 @@ function checkExistence(type: string) {
 }
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 function checkExistence(type: string) {
@@ -161,7 +161,7 @@ function checkExistence(type: string) {
 
 Variable names should be in camelCase
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 ID
@@ -173,7 +173,7 @@ lastname
 Lastname
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 id
@@ -187,13 +187,13 @@ lastName
 
 Variable names should be meaningful, even if they are lengthy or resemble a paragraph
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 const a = 10;
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 const numberOfStudents = 10;
@@ -203,7 +203,7 @@ const numberOfStudents = 10;
 
 Variable names should generally be singular or plural based on the nature of the variable and the data it represents.
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 const student = ['Anya', 'Tokyo', 'Denver'];
@@ -211,7 +211,7 @@ const student = ['Anya', 'Tokyo', 'Denver'];
 const countries = 'India';
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 const students = ['Anya', 'Tokyo', 'Denver'];
@@ -227,7 +227,7 @@ const country = 'India';
 
 Comments are not always necessary if the class, interface, function and variable names already accurately represent the code
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 // List of User
@@ -239,7 +239,7 @@ function list() {
 const list = ['Bike', 'Car', 'Cycle'];
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 function userList() {
@@ -266,7 +266,7 @@ const productList = ['Bike', 'Car', 'Cycle'];
 
 Todo comments will always have “todo” in Uppercase followed by a “:”, a space and then your comment which will start with a capital letter
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 // A sample todo comment (todo)
@@ -276,7 +276,7 @@ Todo comments will always have “todo” in Uppercase followed by a “:”, a 
 // todo: A sample todo comment
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 // TODO: A sample todo comment
@@ -288,13 +288,13 @@ Todo comments will always have “todo” in Uppercase followed by a “:”, a 
 
 If condition should always use strict equality operator `===`
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 if(numberOfStudents == 10) isEnabled = true;
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 if(numberOfStudents === 10) isEnabled = true;
@@ -304,7 +304,7 @@ if(numberOfStudents === 10) isEnabled = true;
 
 If condition should be in single line if its block line is single
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 if(numberOfStudents === 10) {
@@ -312,7 +312,7 @@ if(numberOfStudents === 10) {
 }
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 if(numberOfStudents === 10) isEnabled = true;
@@ -322,7 +322,7 @@ if(numberOfStudents === 10) isEnabled = true;
 
 Boolean variable names should be meaningful, such as "isEnabled."
 
-<span style="color:red">Don't:</span>
+**Don't**
 
 ```
 show = true
@@ -330,7 +330,7 @@ show = true
 isenabled = true
 ```
 
-<span style="color:green">Do:</span>
+**Do**
 
 ```
 isShow = true
