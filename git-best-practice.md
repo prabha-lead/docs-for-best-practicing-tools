@@ -119,3 +119,13 @@ Check this [video](./assets/videos/Git%20Push%20-%20Demo%20using%20VS%20Code.mp4
 Note: Remember to publish the branch immediately after creating it. If you delay pushing the branch and someone else creates a branch with the same name in the meantime, it may cause conflicts.
 
 Check this [video](./assets/videos/Git%20Create%20Branch%20-%20Demo%20using%20VS%20Code.mp4) for demo.
+
+## Review and Create Commit
+
+1. Use the source control view to review a commit in a local repository.
+2. First, check all the files in the changes tab and add the required files to stage changes
+3. Click and open every file in stage changes to review code, database, html, file name, structure to chek is that in required standad and convention.
+4. Then, add a commit message in the message text box in the source control.
+5. Click on the "View more" option in the source control panel and select "Push" from the dropdown menu.
+
+Check this [video](./assets/videos/Git%20Review%20and%20Create%20Commit%20-%20Demo%20using%20VS%20Code.mp4) for demo.
